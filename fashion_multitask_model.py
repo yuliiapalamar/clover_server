@@ -11,7 +11,7 @@ from torch.utils.data import DataLoader, random_split
 
 # Параметри
 DATA_DIR = 'dataset'
-BATCH_SIZE = 32
+BATCH_SIZE = 64
 NUM_EPOCHS = 10
 IMAGE_SIZE = 224
 MODEL_PATH = 'model.pt'
